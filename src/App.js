@@ -1,7 +1,7 @@
-import React from 'react';
-import './App.css';
-import Widget from './components/Widget';
-import Sidebar from './components/Sidebar';
+import React from "react";
+import "./App.css";
+import Widget from "./components/Widget";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (

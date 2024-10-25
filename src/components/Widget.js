@@ -1,25 +1,14 @@
 import React from "react";
 import "./Widget.css";
-import image1 from "../assests/image1.png";
-import navbar from '../assests/navbar.png';
-// import image2 from '../assets/image2.png';
+import navbar from "../assests/navbar.png";
 
 const Widget = () => {
   return (
     <>
       <div className="widget-container">
-      <img className="nav" src={navbar} alt="navbar" />
+        <img className="nav" src={navbar} alt="navbar" />
         {/* Grid Layout */}
         <div className="grid-layout">
-          {/* Image Blocks */}
-          {/* <div className="grid-item">
-              <img src={image1} alt="Image 1" />
-            </div> */}
-
-          {/* <div className="grid-item">
-              <img src={image2} alt="Image 2" />
-            </div> */}
-
           {/* Random Video Block with Nesting Button */}
           <div className="grid-item video-block">
             <div className="overlay">
